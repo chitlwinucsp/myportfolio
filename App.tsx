@@ -5,7 +5,6 @@ import { About } from './components/About';
 import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
-import { ChatWidget } from './components/ChatWidget';
 import { CursorEffect } from './components/CursorEffect';
 
 const App: React.FC = () => {
@@ -23,10 +22,8 @@ const App: React.FC = () => {
       </main>
 
       <footer className="py-8 text-center text-gray-500 text-sm border-t border-white/5 bg-dark">
-        <p>&copy; {new Date().getFullYear()} Chit Lwin (ချစ်လွင်). Built with React, Tailwind & Gemini.</p>
+        <p>&copy; {new Date().getFullYear()} Chit Lwin (ချစ်လွင်). Built with React & Tailwind.</p>
       </footer>
-
-      <ChatWidget />
     </div>
   );
 };
